@@ -1,0 +1,46 @@
+/**************** TABLE STYLE *******************/
+
+.reports-container {
+    background-color: rgba(255, 255, 255, 0.476);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 20px;
+    margin-top: 100px;
+}
+
+.reports-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+tr:last-child {
+    border-bottom: 2px solid #9a998c;
+}
+
+td {
+    font-family: "Montserrat", sans-serif;
+}
+  
+th {
+    font-family: "Italiana", serif;
+    border: 1px solid #9a998c;
+    color: rgba(177, 149, 116, 0.774);
+}
+  
+thead,
+tbody {
+    text-align: center;
+}
+
+.eye-click {
+    cursor: pointer;
+}

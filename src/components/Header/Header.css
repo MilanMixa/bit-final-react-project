@@ -1,0 +1,28 @@
+header {
+    font-family: 'Italiana', serif;
+    margin-bottom: 120px;
+}
+h1 {
+    color: #453f3c;
+    letter-spacing: 2px;
+}
+
+h1 span {
+    font-size: 1.3em;
+}
+
+.candidates-button {
+    background-color: inherit;
+    color: #453f3c;
+    border: 1px solid #453f3c;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.candidates-button:hover {
+    background-color: rgba(164, 172, 133, 0.137);
+    color: #453f3cda;
+    cursor: pointer;
+}
+.button-wrapper:hover {
+    cursor: auto;
+}

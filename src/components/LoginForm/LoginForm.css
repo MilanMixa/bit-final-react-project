@@ -1,0 +1,131 @@
+.font-fam {
+  font-family: "Montserrat", sans-serif;
+}
+.bg-img {
+  background-image: url(../../assets/backg.jpg);
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.514) 0px 3px 8px;
+  border: 1px solid gray;
+  width: 53%;
+}
+
+.bg-color {
+  background-color: #d4d0cb;
+}
+
+.logo {
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.mini-container {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 1px solid gray;
+
+  width: 70%;
+}
+
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.button-col {
+  background-color: rgba(189, 181, 149, 0.445);
+  border: 1px solid rgb(122, 122, 122);
+  padding: 10px;
+  font-weight: 500;
+  color: #32292f;
+}
+
+.button-col:hover {
+  background-color: #9a998c;
+  border: 1px solid rgb(122, 122, 122);
+}
+
+.button-col:focus {
+  background-color: #9a998c;
+}
+
+.border-rad {
+  border-radius: 35px;
+}
+
+.form-input-style {
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid rgba(122, 122, 122, 0.35);
+}
+.form-input-style:focus {
+  outline: none;
+  border: 1px solid rgba(189, 181, 149, 0.445);
+  background-color: #c7c7c310;
+}
+
+.error-msg {
+  color: rgba(255, 0, 0, 0.685);
+  background-color: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+  height: 18px;
+}
+
+.placeholder-font {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.test {
+  visibility: hidden;
+  height: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  .form-wrapper {
+    width: 75%;
+    height: 90%;
+    border-radius: 35px;
+  }
+  .mini-container {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-wrapper {
+    width: 75%;
+    height: 80%;
+  }
+  .mini-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form-wrapper {
+    width: 65%;
+    height: 75%;
+  }
+  .mini-container {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-wrapper {
+    width: 60%;
+  }
+  .mini-container {
+    width: 45%;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .form-wrapper {
+    width: 50%;
+  }
+}

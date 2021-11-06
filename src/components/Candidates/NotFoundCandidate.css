@@ -1,0 +1,19 @@
+.nothing-container {
+    width: 100%;
+    background-image: inherit;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    color: #453f3c;
+}
+
+.nothing-title {
+    margin-top: 10px;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.fa-sad-cry {
+    font-size: 5em;
+    color: #453f3cf8;
+}

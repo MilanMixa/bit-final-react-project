@@ -1,0 +1,13 @@
+.candidates-title {
+  font-family: "Italiana", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #523e22f8;
+}
+
+.input-search {
+  border: 1px solid #523e22d8;;
+  border-radius: 30px;
+  outline: none;
+  margin-bottom: 30px;
+}
